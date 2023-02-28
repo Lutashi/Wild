@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+>>>>>>> fd78274 (init2)
 * {
     margin: 0;
     padding: 0;
@@ -24,3 +28,187 @@
     
     color: #FFFFFF;    
 }
+<<<<<<< HEAD
+=======
+
+header {
+    height: 100vh;
+    background-image: url("./images/Rectangle\ \(5\).svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+    
+    
+}
+.superheader {
+    display: flex;
+
+    justify-content: space-around;
+}
+.superheader div {
+    display: flex;
+    width: 29%;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.superheader img {
+    margin-top: 2%;
+}
+.superheader h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;    
+}
+header h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 94px;
+    /* identical to box height, or 110% */
+    text-align: center;
+    
+    color: #000000;
+    
+}
+.languageChange {
+    position: absolute;
+    right: 2%;
+    top: 10.6%;
+    background-color: transparent;
+    border: 0;
+    font-family: 'Roboto';
+    
+    
+    color: #000000;   
+}
+.scroll {
+    margin-left: 48%;
+    background-color: #000000;
+    padding: 25px;
+    border-radius: 100%;
+    border: 0;
+    margin-top: 27.5%;
+    
+    
+}
+/* header zakonchen */
+
+main {
+    background-color: #ED7B49;
+}
+.wildlyloved {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    
+    text-align: left;
+    padding-top: 70px;
+    
+}
+.wildlyloved div {
+    margin: auto 0;
+    margin-left: 75px;
+}
+.wildlyloved h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 94px;
+    /* identical to box height, or 110% */
+    
+    
+    color: #000000;    
+}
+.wildlyloved h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000;   
+}
+.slideshow {
+    margin-top: 125px;
+    display: flex;
+    overflow: hidden;
+    flex-flow: nowrap;
+    
+}
+.slideshow div:nth-child(1) img {
+    background-color: #72A080;
+    border-radius: 45%;
+    margin-top: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.slideshow div:nth-child(2) img {
+    background-color: #A95D50;
+    border-radius: 45%;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.slideshow div:nth-child(3) img {
+    background-color: #ABAFD6;
+    border-radius: 45%;
+    margin-top: 40%;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.slideshow div:nth-child(4) img {
+    background-color: #FECF6B;
+    border-radius: 45%;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.slideshow div {
+    width: 30%;
+    margin-left: 20px;
+    
+    
+}
+.slideshow p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    /* or 117% */
+    
+    
+    color: #000000;   
+}
+.slideshow h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #000000;   
+}
+>>>>>>> fd78274 (init2)
