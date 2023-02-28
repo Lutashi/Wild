@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
->>>>>>> fd78274 (init2)
+
 * {
     margin: 0;
     padding: 0;
@@ -28,8 +27,6 @@
     
     color: #FFFFFF;    
 }
-<<<<<<< HEAD
-=======
 
 header {
     height: 100vh;
@@ -211,4 +208,41 @@ main {
     
     color: #000000;   
 }
->>>>>>> fd78274 (init2)
+
+.slideshow h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    
+    
+    text-transform: uppercase;
+    
+    color: #000000;   
+}
+.slideshow div:nth-child(1) h4 {
+    background-color: #72A080;
+    width: 156px;
+    border-radius: 25%;
+    text-align: center;
+}
+.slideshow div:nth-child(2) h4 {
+    background-color: #A95D50;
+    width: 156px;
+    border-radius: 25%;
+    text-align: center;
+}
+.slideshow div:nth-child(3) h4 {
+    background-color: #ABAFD6;
+    width: 156px;
+    border-radius: 25%;
+    text-align: center;
+}
+.slideshow div:nth-child(4) h4 {
+    background-color: #FECF6B;
+    width: 156px;
+    border-radius: 25%;
+    text-align: center;
+}
