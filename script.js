@@ -4,6 +4,9 @@ let carouselImages = document.querySelectorAll(".slideshow img")
 let prevButton = document.querySelector("#prevBtn")
 let nextButton = document.querySelector("#nextBtn")
 
+let scroll = document.querySelector(".scroll")
+
+
 let counter = 0
 let size = carouselImages[0].clientWidth
 
@@ -27,3 +30,7 @@ prevButton.addEventListener('click',()=>{
     carouselSlide.style.transform = "translateX(" + (-size * counter) + "px)"
 })
 
+scroll.addEventListener('click', () => {
+    carouselSlide.style.transition = "transform 0.4s ease-in-out"
+    carouselSlide.scrollIntoView({ block: 'end',  behavior: 'smooth' })
+})
