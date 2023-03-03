@@ -607,3 +607,191 @@ color: #000000;
     margin: 0 70px;
     
 }
+/* done  */
+.conceptStoreActual {
+    background-color: #F5AFB9;
+    
+}
+.conceptStore {
+    width: 90%;
+    margin: 0 auto;
+    
+    padding-top: 500px;
+    padding-bottom: 500px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#pic4 {
+    /* position: relative;
+    right: 52.5%;
+    bottom: 75%; */
+    z-index: 3;
+    position: absolute;
+    right: 15%;
+    top: 5300px;
+    /* width: 486px;     */
+    
+}
+#pic5 {
+    /* position: relative;
+    right: 40%;
+    bottom: 45%; */
+    z-index: 1;
+    position: absolute;
+    right: 2.5%;
+    top: 5200px;
+
+}
+#pic6 {
+    /* position: relative;
+    right: 100%;
+    bottom: 10%; */
+    z-index: 2;
+    position: absolute;
+    right: 20%;
+    top: 5200px;
+    
+    
+}
+#pic7 {
+    position: absolute;
+    left: 17.5%;
+    bottom: -650%;
+    width: 282px;
+    height: 282px;
+}
+.conceptStore div {
+    width: 30%;
+}
+/* text  */
+.conceptStore button {
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    padding: 7px 50px;
+    background-color: #000000;
+    margin-top: 30px;
+}
+.conceptStore h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 94px;
+    /* identical to box height, or 110% */
+    
+    
+    color: #000000;   
+}
+.conceptStore p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000;  
+}
+
+
+.wildHalva {
+    display: flex;
+    background-color:#F5AFB9;
+}
+.halva {
+    width: 60%;
+    background-color: #ABAFD6;
+    border-radius: 0 200px 0 0;
+    height: 750px;
+
+}
+.containerHalva {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 0;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.subheadingHalva {
+    display: flex;
+    justify-content: space-between;
+}
+.subheadingHalvaText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+}
+
+
+
+/* text  */
+.halva button {
+    text-decoration: none;
+    border: none;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 100px;
+    padding: 12px 70px;
+    margin-top: 50px;
+}
+.halva h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 94px;
+    /* identical to box height, or 110% */
+    
+    
+    color: #000000;   
+}
+.halva h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    /* or 120% */
+    
+    
+    color: #000000;  
+}
+.halva p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000; 
+}
+.halva h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #000000;   
+}
+
+.spreadLove button {
+    text-decoration: none;
+    border: none;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 100px;
+    padding: 12px 70px;
+    margin-top: 50px;
+}
