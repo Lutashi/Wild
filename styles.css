@@ -400,11 +400,13 @@ hr {
 #Nut div {
     width: 50%;
 }
-
+a {
+    text-decoration: none;
+}
 #fingers {
     
-    right: -80%;
-    top: 12.5%;
+    right: -77%;
+    bottom: 340px;
     z-index: 2;
     position: relative;
 }
@@ -657,7 +659,7 @@ color: #000000;
 #pic7 {
     position: absolute;
     left: 17.5%;
-    bottom: -600%;
+    top: 5000px;
     width: 282px;
     height: 282px;
 }
@@ -707,7 +709,7 @@ color: #000000;
     background-color: #ABAFD6;
     border-radius: 0 200px 0 0;
     height: 750px;
-
+    
 }
 .containerHalva {
     width: 80%;
@@ -796,7 +798,7 @@ color: #000000;
     background-color: #EC4844;
     padding: 50px;
     padding-bottom: 0px;
-    height: 100vh;
+    height: 750px;
 }
 .spreadLove img {
     width: 147px;
@@ -887,7 +889,7 @@ color: #000000;
 #pic11 {
     position: absolute;
     left: 17.5%;
-    bottom: -890%;
+    top: 7300px;
     width: 282px;
     height: 282px;
 }
@@ -930,15 +932,51 @@ color: #000000;
 .slideshow2Container {
     background-color: #F5AFB9;
     padding-top: 200px;
+    padding-bottom: 500px;
+}
+.outsideSlideshow2 {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    margin-top: 200px;
+    padding-bottom: 400px;
+    
 }
 .slideshow2 {
     display: flex;
-    justify-content: space-between;
-    height: 80%;
-    margin-top: 200px;
+    width: 100%;
+    position: absolute;
+    animation: marquee 6s linear infinite;
+}
+
+.slideshow2 img{
+    width: 450px;
+    height: 450px;
+}
+@keyframes marquee {
+    0% { left: 0; }
+    100% { left: -123%; }
 }
 
 
+.slide {
+    display: flex;
+    /* justify-content: space-around; */
+    
+}
+
+.slide div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+.slide div:nth-child(even) {
+    margin-top: 50px;
+}
+.slideshow2:hover {
+    animation-play-state: paused;
+    scroll-behavior: smooth;
+}
 .slideshow2 h1 {
     font-family: 'Roboto';
     font-style: normal;
@@ -962,9 +1000,10 @@ color: #000000;
     margin-top: 30px;
     color: #000000; 
 }
-.slideshow2 div:nth-child(2) {
+/* .slide div:nth-child(2), div:nth-child(4) {
     margin-top: 50px;
-}
+} */
+
 
 
 .wildrecipes {
@@ -1008,6 +1047,7 @@ footer {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 .footerHeading {
@@ -1016,3 +1056,112 @@ footer {
     margin: 100px 0;
 }
 
+.footerLeftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  ;
+    height: 60vh ;
+}
+.email hr {
+    width: 110%;
+    margin-top: 5px;
+}
+#email {
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    width: 110%;
+}
+#email::placeholder {
+    color: black;
+}
+.followUs img {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.followUs h3{
+    margin-top: 10px;
+}
+
+.footerLeftSide h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 94px;
+    /* identical to box height, or 110% */
+    
+    
+    color: #000000;  
+}
+.footerLeftSide h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height, or 120% */
+    
+    
+    color: #000000; 
+}
+.footerLeftSide h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #000000;
+}
+.footerLeftSide h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #000000;
+}
+.footerRightSide {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+.list {
+    width: 40%;
+}
+.list h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height, or 120% */
+    
+    /* margin-top: 40px; */
+    color: #000000; 
+}
+.list p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #000000;
+       
+}
+#contacts {
+    margin-top: 90px;
+}
