@@ -1165,3 +1165,28 @@ footer {
 #contacts {
     margin-top: 90px;
 }
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 6 ));
+    }
+}
+.carousel {
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+    
+}
+.slide-track {
+    animation: scroll 10s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.slide-track img {
+    height: 100px;
+    width: 250px;
+}
