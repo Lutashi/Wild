@@ -12,7 +12,7 @@ html, body {
 }
 .actsiya {
     background-color: black;
-    height: 7vh;
+    height: 3vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -657,7 +657,7 @@ color: #000000;
 #pic7 {
     position: absolute;
     left: 17.5%;
-    bottom: -650%;
+    bottom: -600%;
     width: 282px;
     height: 282px;
 }
@@ -703,7 +703,7 @@ color: #000000;
     background-color:#F5AFB9;
 }
 .halva {
-    width: 60%;
+    width: 50%;
     background-color: #ABAFD6;
     border-radius: 0 200px 0 0;
     height: 750px;
@@ -786,6 +786,29 @@ color: #000000;
     color: #000000;   
 }
 
+
+
+
+/* first half  */
+.spreadLove {
+    width: 30%;
+    margin-left: 50px;
+    background-color: #EC4844;
+    padding: 50px;
+    padding-bottom: 0px;
+    height: 100vh;
+}
+.spreadLove img {
+    width: 147px;
+    height: 327px;
+}
+.containerSpreadLove {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
 .spreadLove button {
     text-decoration: none;
     border: none;
@@ -795,3 +818,201 @@ color: #000000;
     padding: 12px 70px;
     margin-top: 50px;
 }
+
+
+
+
+
+
+/* text  */
+.spreadLove h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    /* or 120% */
+    
+    text-align: center;
+    
+    color: #000000;   
+}
+/* done  */
+.conceptStore2Actual {
+    background-color: #F5AFB9;
+    
+}
+.conceptStore2 {
+    width: 90%;
+    margin: 0 auto;
+    
+    padding-top: 500px;
+    padding-bottom: 500px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#pic10 {
+    /* position: relative;
+    right: 52.5%;
+    bottom: 75%; */
+    z-index: 3;
+    position: absolute;
+    right: 15%;
+    top: 7500px;
+    /* width: 486px;     */
+    
+}
+#pic9 {
+    /* position: relative;
+    right: 40%;
+    bottom: 45%; */
+    z-index: 1;
+    position: absolute;
+    right: 2.5%;
+    top: 7400px;
+
+}
+#pic8 {
+    /* position: relative;
+    right: 100%;
+    bottom: 10%; */
+    z-index: 2;
+    position: absolute;
+    right: 20%;
+    top: 7400px;
+    
+    
+}
+#pic11 {
+    position: absolute;
+    left: 17.5%;
+    bottom: -890%;
+    width: 282px;
+    height: 282px;
+}
+.conceptStore2 div {
+    width: 30%;
+}
+/* text  */
+.conceptStore2 button {
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    padding: 7px 50px;
+    background-color: #000000;
+    margin-top: 30px;
+}
+.conceptStore2 h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 94px;
+    /* identical to box height, or 110% */
+    
+    
+    color: #000000;   
+}
+.conceptStore2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #000000;  
+}
+/* done  */
+.slideshow2Container {
+    background-color: #F5AFB9;
+    padding-top: 200px;
+}
+.slideshow2 {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    margin-top: 200px;
+}
+
+
+.slideshow2 h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    /* or 120% */
+    margin-top: 20px;
+    
+    color: #000000;  
+}
+.slideshow2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #000000; 
+}
+.slideshow2 div:nth-child(2) {
+    margin-top: 50px;
+}
+
+
+.wildrecipes {
+    width: 32%;
+    margin-left: 50%;
+    
+}
+
+.wildrecipes p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    margin-top: 20px;
+    
+    
+    color: #000000;
+}
+.wildrecipes h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 94px;
+    /* identical to box height, or 110% */
+    
+    
+    color: #000000;
+     
+}
+
+footer {
+    background-color: #BE5A4B;
+    
+    
+}
+.footerContainer {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.footerHeading {
+    width: 100%;
+    text-align: center;
+    margin: 100px 0;
+}
+
