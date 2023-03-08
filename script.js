@@ -1,8 +1,8 @@
-let carouselSlide = document.querySelector(".slideshow")
-let carouselImages = document.querySelectorAll(".slideshow img")
-
-let prevButton = document.querySelector("#prevBtn")
-let nextButton = document.querySelector("#nextBtn")
+// let carouselSlide = document.querySelector(".slideshow")
+// let carouselImages = document.querySelectorAll(".slideshow img")
+// let mql = window.matchMedia("(max-width: 576px)")
+// let prevButton = document.querySelector("#prevBtn")
+// let nextButton = document.querySelector("#nextBtn")
 
 let scroll = document.querySelector(".scroll")
 
@@ -34,3 +34,4 @@ scroll.addEventListener('click', () => {
     carouselSlide.style.transition = "transform 0.4s ease-in-out"
     carouselSlide.scrollIntoView({ block: 'end',  behavior: 'smooth' })
 })
+

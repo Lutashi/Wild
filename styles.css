@@ -167,18 +167,35 @@ main {
 /* first part done */
 .slideshowContainer {
     width: 100%;
-     
     
 }
+
+
 .slideshow {
     margin-top: 100px;
     display: flex;
     width: 100%;
-    
+    overflow: hide;
+    position: relative;
+    animation: scrollForFirst 10s linear infinite;
 }
 .slideshow div {
     width: 30%;
      margin-left: 90px; /* if there is an error come here */
+     
+     
+}
+@keyframes scrollForFirst {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-450px * 4 ));
+    }
+}
+.slideshow:hover {
+    animation-play-state: paused;
+    scroll-behavior: smooth;
 }
 .slideshow div:nth-child(1) img {
     background-color: #72A080;
@@ -209,6 +226,43 @@ main {
     
 }
 .slideshow div:nth-child(4) img {
+    background-color: #FECF6B;
+    border-radius: 245px;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.slideshow div:nth-child(5) img {
+    background-color: #72A080;
+    border-radius: 245px;
+    margin-top: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.slideshow div:nth-child(6) img {
+    background-color: #A95D50;
+    border-radius: 245px;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.slideshow div:nth-child(7) img {
+    background-color: #ABAFD6;
+    border-radius: 245px;
+    margin-top: 40%;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+.slideshow div:nth-child(8) img {
     background-color: #FECF6B;
     border-radius: 245px;
     
@@ -284,6 +338,35 @@ main {
     border: none;
 }
 .slideshow div:nth-child(4) button {
+    text-decoration: none;
+    background-color: #FECF6B;
+    padding: 8px 45px;
+    border-radius: 27px;
+    border: none;
+}
+.slideshow div:nth-child(5) button {
+    text-decoration: none;
+    background-color: #72A080;
+    padding: 8px 45px;
+    border-radius: 27px;
+    border: none;
+
+}
+.slideshow div:nth-child(6) button {
+    text-decoration: none;
+    background-color: #A95D50;
+    padding: 8px 45px;
+    border-radius: 27px;
+    border: none;
+}
+.slideshow div:nth-child(7) button {
+    text-decoration: none;
+    background-color: #ABAFD6;
+    padding: 8px 45px;
+    border-radius: 27px;
+    border: none;
+}
+.slideshow div:nth-child(8) button {
     text-decoration: none;
     background-color: #FECF6B;
     padding: 8px 45px;
@@ -546,13 +629,14 @@ color: #000000;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
     height: 60%;
     width: 30%;
 }
 .containerSoulWords div img {
     width: 93px;
+    
 }
 #pictures {
     display: flex;
@@ -959,6 +1043,7 @@ color: #000000;
 }
 
 
+
 .slide {
     display: flex;
     /* justify-content: space-around; */
@@ -1189,4 +1274,87 @@ footer {
 .slide-track img {
     height: 100px;
     width: 250px;
+}
+.hide {
+    display: none;
+}
+#burger {
+    width: 20px;
+    height: 24px;
+}
+@media (max-width: 576px) {
+    .superheader div {
+        display: none;
+    }
+    #burger {
+        display: block;
+        position: absolute;
+        top: 3%;
+        right: 3%;
+    }
+    .superheader {
+        display: flex;
+        
+    }
+    .languageChange {
+        position: absolute;
+        top: 3%;
+        margin-top: 3%;
+        right: 10%;
+    }
+    .wildlyloved {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .wildlyloved div{
+       margin-left: 0;
+       margin-top: 35px;
+       text-align: center;
+    }
+    
+    #pic1 {
+        top: 0;
+    }
+    #pic2 {
+        top: 0;
+    }
+    #pic3 {
+        top: 0;
+    }
+    #pic4 {
+        top: 0;
+    }
+    #pic5 {
+        top: 0;
+    }
+    #pic6 {
+        top: 0;
+    }
+    #pic7 {
+        top: 0;
+    }
+    #pic8 {
+        top: 0;
+    }
+    #pic9 {
+        top: 0;
+    }
+    #pic10 {
+        top: 0;
+    }
+    #pic11 {
+        top: 0;
+    }
+    .slideshow div {
+
+        width: 100%;
+
+        align-self: center;
+    }
+    .slideshow div:nth-child(odd) img {
+        margin-top: 0;
+    }
 }
