@@ -10,6 +10,43 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+.cookies {
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    width: 392px;
+    padding: 20px;
+    display: flex;
+    background-color: #000000;
+    opacity: 0.7;
+    color: white;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 7;
+}
+.cookies p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #FFFFFF;  
+}
+.cookies button {
+    padding: 7px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+
+
+
 .actsiya {
     background-color: black;
     height: 3vh;
@@ -91,7 +128,7 @@ header h2 {
 .languageChange {
     position: absolute;
     right: 2%;
-    top: 10.6%;
+    top: 10%;
     background-color: transparent;
     border: 0;
     font-family: 'Roboto';
@@ -177,7 +214,7 @@ main {
     width: 100%;
     overflow: hide;
     position: relative;
-    animation: scrollForFirst 10s linear infinite;
+    animation: scrollForFirst 5s linear infinite;
 }
 .slideshow div {
     width: 30%;
@@ -489,7 +526,7 @@ a {
 #fingers {
     
     right: -77%;
-    bottom: 340px;
+    bottom: -70px;
     z-index: 2;
     position: relative;
 }
@@ -973,7 +1010,7 @@ color: #000000;
 #pic11 {
     position: absolute;
     left: 17.5%;
-    top: 7300px;
+    top: 7200px;
     width: 282px;
     height: 282px;
 }
@@ -1316,37 +1353,70 @@ footer {
     }
     
     #pic1 {
-        top: 0;
+        top: 3200px;
+        width: 200px;
+        right: 25%;
+
     }
     #pic2 {
-        top: 0;
+        top: 3150px;
+        width: 250px;
+        right: 5%;
+
     }
     #pic3 {
-        top: 0;
+        
+        top: 3150px;
+        width: 250px;
+        right: 30%;
+
     }
     #pic4 {
-        top: 0;
+        top: 8400px;
+        width: 200px;
+        right: 25%;
+
     }
     #pic5 {
-        top: 0;
+        top: 8350px;
+        width: 250px;
+        right: 5%;
     }
     #pic6 {
-        top: 0;
+        top: 8350px;
+        width: 250px;
+        right: 30%;
     }
     #pic7 {
-        top: 0;
+        position: absolute;
+        top: 10850px;
+        left: 200px;
+        width: 150px;
+        height: 150px   ;
+        
     }
     #pic8 {
-        top: 0;
+        top: 11650px;
+        width: 250px;
+        right: 30%;
     }
     #pic9 {
-        top: 0;
+        top: 11650px;
+        width: 250px;
+        right: 5%;
     }
     #pic10 {
-        top: 0;
+        top: 11700px;
+        width: 200px;
+        right: 25%;
+
     }
     #pic11 {
-        top: 0;
+        position: absolute;
+        top: 7600px;
+        left: 200px;
+        width: 150px;
+        height: 150px   ;
     }
     .slideshow div {
 
@@ -1356,5 +1426,97 @@ footer {
     }
     .slideshow div:nth-child(odd) img {
         margin-top: 0;
+    }
+    #oreh {
+        display: none;
+    }
+    #fingers {
+        display: none;
+    }
+    #Nut {
+        width: 100%;
+    }
+    .wildnut button {
+        padding: 12px 5px;
+    }
+    .wildnut {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #list {
+        width: 80%;
+        margin: 40px auto;
+        height: 100vh;
+    }
+    .soulWords {
+        height: 1600px;
+    }
+    .containerSoulWords {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        text-align: center;
+        
+    }
+    .containerSoulWords div {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        
+    }
+    .containerSoulWords div:nth-child(1) {
+        justify-content: flex-end;
+    }
+    .containerSoulWords div:nth-child(3) {
+        justify-content: flex-start;
+    }
+    .containerSoulWords h2 {
+        margin: 0 auto;
+
+    }
+    .wildHalva {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .halva {
+        width: 100%;
+    }
+    .halva img {
+        display: none;
+    }
+    .spreadLove {
+        width: 80%;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .conceptStore2 {
+        width: 80%;
+    }
+    .conceptStore2 h1 {
+        font-size: 70px;
+    }
+    .wildrecipes {
+        margin-left: 10%;
+        width: 80%;
+    }
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(calc(-468px * 5 ));
+        }
+    }
+    .followUs {
+        margin-top: 20px    ;
+    }
+    .footerContainer {
+        justify-content: center;
+    }
+    .footerRightSide {
+        width: 100%;
+        margin-top: 30px;
     }
 }
