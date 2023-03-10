@@ -9,7 +9,20 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
+<body class="body">
+            
+    <div class="bigModal hide">
+        <img id="closeBigModal" src="https://cdn-icons-png.flaticon.com/512/458/458595.png" alt="">
+        <div>
+        <h1>Products</h1>
+        <h1>Who we are</h1>
+        <h1>Concept Store</h1>
+        <h1>Recipes</h1>
+        <h1 >Log In</h1>
+        <h1 >Cart (0)</h1>
+    </div>
+
+    </div>
     <div class="actsiya">
         <p>Free shipping in Greece for Wild orders over 50 euros!</p>
     </div>
@@ -27,8 +40,8 @@
             <img src="./images/Frame (8).svg" alt="">
             <div>
                 <h1>Recipes</h1>
-                <h1>Log In</h1>
-                <h1>Cart (0)</h1>
+                <h1 id="logIn">Log In</h1>
+                <h1 id="myCart">Cart (0)</h1>
 
             </div>
             <img class="hide" id="burger" src="./images/burger-bar.png" alt="">
@@ -54,6 +67,24 @@
         </div>
 
         </header>
+        <!-- <div class="cartModal hide">
+                
+        </div> -->
+        <div class="modal sign hide">
+            <div class="modal__dialog">
+                <div class="modal__content">
+                    <form action="#">
+                        <div data-close class="modal__close">&times;</div>
+                        <div class="modal__title">Sign in</div>
+                        <div class="modal__subtitle">Email or mobile phone number</div>
+                        <input required name="name" type="email" class="modal__input">
+                        <button class="btn btn_dark btn_min google_btn"><img src="https://cdn-icons-png.flaticon.com/512/2875/2875404.png" alt="">
+                            Continue with google</button>
+                        <button class="btn btn_dark btn_min">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
 
         <div class="slideshowContainer">
@@ -413,6 +444,7 @@
 
 
     <script src="./script.js"></script>
+</div>
 </body>
 
 </html>

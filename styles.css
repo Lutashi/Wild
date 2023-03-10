@@ -5,10 +5,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+}
+.wrapper {
+    position: relative;
 }
 .cookies {
     position: fixed;
@@ -17,8 +21,8 @@ html, body {
     width: 392px;
     padding: 20px;
     display: flex;
-    background-color: #000000;
-    opacity: 0.7;
+    background-color: #000000B3;
+    /* background-opacity: 0.7; */
     color: white;
     border-radius: 100px;
     align-items: center;
@@ -127,8 +131,8 @@ header h2 {
 }
 .languageChange {
     position: absolute;
-    right: 2%;
-    top: 10%;
+    right: 3%;
+    top: 20%;
     background-color: transparent;
     border: 0;
     font-family: 'Roboto';
@@ -1320,6 +1324,10 @@ footer {
     height: 24px;
 }
 @media (max-width: 576px) {
+    .cookies {
+        right: 0;
+    }
+    
     .superheader div {
         display: none;
     }
@@ -1519,4 +1527,142 @@ footer {
         width: 100%;
         margin-top: 30px;
     }
+    
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__subtitle {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.modal__dialog {
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.modal__content {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal__close {
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    font-size: 30px;
+    color: #000;
+    opacity: 0.5;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal__title {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.modal__input {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 280px;
+    height: 50px;
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
+    outline: none;
+}
+
+.modal .btn {
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.modal .google_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    color: #000;
+}
+
+.modal .google_btn img {
+    display: block;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+.cartModal{
+    background-color: white;
+    left: 85%;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 10vh;  
+
+}
+#logIn {
+    cursor: pointer;
+}
+#myCart {
+    cursor: pointer;
+}
+.bigModal {
+    background-color: #000;
+    opacity: 0.6;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 8;
+    
+}
+#closeBigModal {
+    width: 20px;
+    position: absolute;
+    left: 23%;
+    top: 30px;
+}
+.noscroll {
+    width: 100vw;
+    height: 100vh;
+}
+.bigModal h1 {
+    color: white;
+    
+}
+.bigModal div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    margin-top: 30px;
 }
